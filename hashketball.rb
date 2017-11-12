@@ -110,10 +110,12 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
-    winner_chicken_dinner = ["name", 0, 0] 
+  winner_chicken_dinner = ["name", 0, 0] 
   game_hash.each_value do |team|
     team[:players].each do |name, player_data|
+      if player_data[:shoe] > winner_chicken_dinner[1]
 
+      end
     end
   end
 end
