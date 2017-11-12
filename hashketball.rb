@@ -115,6 +115,7 @@ def big_shoe_rebounds
     team[:players].each do |name, player_data|
       if player_data[:shoe] > winner_chicken_dinner[0]
         winner_chicken_dinner[0] = player_data[:shoe]
+        winner_chicken_dinner[1] = player_data[:rebounds]
       end
     end
   end
