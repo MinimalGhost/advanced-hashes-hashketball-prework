@@ -119,4 +119,5 @@ def big_shoe_rebounds
       end
     end
   end
+  return winner_chicken_dinner[1]
 end
