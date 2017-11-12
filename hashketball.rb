@@ -110,8 +110,8 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
-  game_hash.each_value do |team|
     winner_chicken_dinner = ["name", 0, 0] 
+  game_hash.each_value do |team|
     team[:players].each do |name, player_data|
 
     end
