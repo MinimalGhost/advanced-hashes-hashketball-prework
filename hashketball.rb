@@ -114,8 +114,7 @@ def big_shoe_rebounds
   game_hash.each_value do |team|
     team[:players].each do |name, player_data|
       if player_data[:shoe] > shoe_size
-        winner_chicken_dinner[0] = name
-        winner_chicken_dinner[]
+        shoe_size = player_data[:shoe]
       end
     end
   end
